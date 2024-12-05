@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    int arr[100];
-    int m=0, length=0, index, value, choice, temp, count, del_Index, secArr,    
+    int arr[100], secArr[100];
+    int m=0, length=0, index, value, choice, temp, count, del_Index;    
     
     do{
         printf("1. Nhap so phan tu va gia tri cho mang\n");
@@ -111,9 +111,6 @@ int main(){
             printf("%d ",arr[i]);
         }
         break;
-        default:
-            break;
-
         case 8:
             count=0;
             printf("\nnhap vao gia tri can tim kiem: ");
@@ -159,7 +156,8 @@ int main(){
 
     }while(choice!=11);
 
-    return 0:
+    return 0;
+}
     
     
 
@@ -173,4 +171,4 @@ int main(){
         
      
                 
-            }
+            
